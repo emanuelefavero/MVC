@@ -17,3 +17,12 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(33, 33, 33);
 }
+
+a {
+  color: rgb(0, 87, 238);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -2,15 +2,10 @@
 <%- include('./partials/header.ejs') %>
 
 <!-- BLOCK CONTENT -->
-<h1><%= title %></h1>
-
-<% posts.forEach((post) => { %>
-<h2>
-  <a href="<%= post.url %>"><%= post.title %></a>
-</h2>
+<h1><%= post.title %></h1>
 <p><%= post.content %></p>
 
-<% }) %>
+<a href="/">Home</a>
 
 <!-- FOOTER -->
 <%- include('./partials/footer.ejs') %>

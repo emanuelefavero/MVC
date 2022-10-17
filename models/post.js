@@ -9,7 +9,8 @@ const PostSchema = new Schema({
 
 // Virtual for post's URL
 PostSchema.virtual('url').get(function () {
-  return `/blog/post/${this._id}`
+  // We don't use an arrow function as we'll need the 'this' keyword
+  return `/blog/${this._id}`
 })
 
 // Export model
