@@ -13,6 +13,9 @@ const app = express()
 
 // TIP: Set up NODE_ENV to 'development' to see debug messages, and to 'production' to hide them in production
 
+// BEWARE: Remember to add an .env file to the root of the project with the following variables:
+// MONGODB_URI (the URI of your MongoDB database, example: mongodb+srv://admin:<password>@cluster0.xqxryge.mongodb.net/?retryWrites=true&w=majority)
+
 // Set mongoose connection
 const mongoose = require('mongoose')
 const mongoDB = process.env.MONGODB_URI
