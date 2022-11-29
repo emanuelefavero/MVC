@@ -25,7 +25,3 @@ SET DEBUG=express-locallibrary-tutorial:* & npm run devstart
 ```
 
 _NOTE: Remember to set NODE_ENV to `development` and MONGO_URI in your environment variables. (Set NODE_ENV to 'production' when deploying to production.)_
-
-## Live Website
-
-[Cyclic App](https://lime-unusual-raven.cyclic.app/)
